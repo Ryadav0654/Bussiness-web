@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+/* --------------------This section contain navabr css-------------- */
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+#logo {
+  width: 265px;
+  padding: 5px 0 0 0;
+  margin-left: 40px;
+  /* margin-top: 10px; */
+}
+
+.navbar {
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+  padding: 0 !important;
+}
+
+.navbar-nav li {
+  padding: 12px 5px 10px 10px;
+}
+
+.navbar-nav li a {
+  color: #fff !important;
+  font-weight: 600;
+}
+
+.fa-bars {
+  color: #fff;
+  font-size: 25px !important;
+}
+
+.navbar-toggler {
+  outline: none !important;
+}
+
+/*------------- this section contain banner css----------------  */
+
+#banner {
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+  color: #fff;
+  padding-top: 5%;
+}
+
+.typing h1 {
+  font-size: 80px;
+  font-weight: 600;
+}
+
+#element {
+  /* color: linear-gradient(120deg, ; */
+  background: -webkit-linear-gradient(300deg,
+  #1e90ff, #62edac);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.promo-title {
+  font-size: 50px;
+  font-weight: 600;
+  margin-top: 100px;
+}
+
+.banner-para {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.play-btn {
+  width: 45px;
+  margin: 20px;
+}
+
+#banner a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+.bottom-img {
+  width: 100%;
+
+}
+
+/* ----------------------this section contain services css----------------  */
+
+#services {
+  padding: 80px 0;
+}
+
+.services-img {
+  width: 100px;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.services {
+  padding: 30px;
+}
+
+.services h4 {
+  padding: 5px;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+
+.title::before {
+  content: "";
+  transform: translateY(60px);
+  margin-left: auto;
+  margin-right: auto;
+  background: #7b1798;
+  height: 5px;
+  width: 200px;
+  display: block;
+}
+
+.title::after {
+  content: "";
+  transform: translateY(5px);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  background: #7b1798;
+  height: 10px;
+  width: 55px;
+  display: block;
+}
+
+.btn-primary {
+  border: none;
+  border-radius: 20px;
+  padding: 8px 25px;
+  box-shadow: none;
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+/*----------------- this section contain about us css --------------------- */
+
+#about-us {
+  background: #f8f9fa;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.about-title {
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 8%;
+}
+
+#about-us ul li {
+  margin: 10px 0;
+}
+
+#about-us ul {
+  margin-left: 10px;
+}
+
+#testinomials {
+  margin: 100px 0;
+}
+
+.testinomials {
+  border-left: 4px solid #7b1798;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.testinomials img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+.user-details {
+  font-size: 15 px;
+  display: inline-block;
+}
+
+/* ---------------this section contain social media css------------------- */
+
+#social-media {
+  background: #f8f9fa;
+  padding: 100px 0;
+}
+
+#social-media p {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.social-icons img {
+  height: 60px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.social-icons img:hover {
+  transform: translateY(-10px);
+}
+
+/* ------------------This section contain footer css--------- */
+
+#footer {
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+  color: #fff;
+}
+
+#footer .row {
+  margin-left: 90px;
+  margin-right: 60px;
+}
+
+#footer img {
+  width: 100%;
+}
+
+.footer-box {
+  padding: 20px 50px;
+}
+
+#footer .footer-img {
+  margin-bottom: 20px;
+  width: 200px;
+}
+
+.footer-box i {
+  margin-right: 8px;
+  width: 40px;
+  height: 40px;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 7px;
+  border-radius: 5px;
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+.footer-box input {
+  border: none;
+  border-radius: 0;
+  box-shadow: none !important;
+  width: 250px;
+  padding: 5px;
+  margin: 20px 0;
+}
+
+hr {
+  background-color: #fff;
+  height: 2px;
+}
+
+.copyright {
+  text-align: center;
+  padding-bottom: 20px;
+  margin-bottom: 0;
+}
